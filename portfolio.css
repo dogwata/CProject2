@@ -1,0 +1,280 @@
+body {
+    background-color: #ADD8E6;
+	font-family: 'Catamaran', sans-serif;
+	padding-left: 17%;
+	padding-right: 17%;
+	margin:0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Catamaran', serif;
+	font-size: 3em;
+	text-align: center;
+	color: #373F27;
+	margin-bottom: 0;
+}
+
+h2 {
+    font-style: bold;
+    letter-spacing: 3px;
+}
+
+h4 {
+    font-style: bold;
+    letter-spacing: 3px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: 'Catamaran', serif;
+	font-size: 2em;
+	text-align: center;
+	color: #373F27;
+	margin-bottom: 0;
+}
+
+p {
+    color: #636B46;
+}
+
+a:hover {
+    color: #85b2a3;
+}
+
+#content {
+	background-color: white;
+	padding-top: 2%;
+}
+
+main {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+.quote {
+	font-style: bold;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+#front_image_wrap img {
+	width: 100%;
+}
+
+footer {
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	padding: 2%;
+}
+
+footer a {
+	color: white;
+}
+
+.active {
+    background-color: #CDA34F;
+    color: white;
+}
+
+/* FORM */
+.info {
+	text-align: center;
+	font-size: 1.25em;
+}
+
+form {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ADD8E6;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #003366;
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #000080;
+    color: white;
+}
+
+
+#userlinks {
+
+	background-color: #050505;
+	/*background-image: url(http://i.imgur.com/0eIVRzm.png);*/
+	list-style: none;
+	width: 100%;
+	margin: 0 auto;
+	color: #FFF;
+	text-align: left;
+	text-shadow: 10px 10px 8px rgb(0,0,0);
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0.3;
+	-webkit-transition: 1s; /* Safari 3.1 to 6.0 */
+    	transition: 1s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+#userlinks:hover {
+
+	background-color: #050505;
+	/*background-image: url(http://i.imgur.com/0eIVRzm.png);*/
+	list-style: none;
+	width: 100%;
+	margin: 0 auto;
+	color: #FFF;
+	text-align: left;
+	text-shadow: 10px 10px 8px rgb(0,0,0);
+	z-index: 100;
+	position: fixed;
+	top: 2px;
+	left: 2px;
+	opacity: 1;
+        transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        -webkit-transition-duration: 1s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+#userlinks td {
+
+	font-family: 'Catamaran', Verdana, Tahoma, sans-serif;
+	color: #FFFfff;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+
+
+#userlinks a {
+	text-decoration: none; padding: 1px;
+	font-weight: 200;
+}
+
+
+
+#userlinks a:hover {
+	text-decoration: none;
+	color: #8F9FC9;
+}
+
+#reg-link {
+font-family: 'Catamaran', Verdana, Tahoma, sans-serif;
+color: #FFFfff;
+font-size: 18px;
+font-weight: 200;
+}
+
+#log-in {
+font-family: 'Catamaran', Verdana, Tahoma, sans-serif;
+color: #FFFfff;
+font-size: 18px;
+font-weight: 200;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100% - 60px);;
+    margin: 30px;
+}
+
+#weather{
+    display: inline;
+    min-width: 275px;
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+    align-content: center;
+}
+#recipesearch{
+    display: inline;
+    min-width: 275px;
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+    align-content: center;
+}
+
+#weatherInput{
+    width = 90%;
+}
+
+#recipeInput{
+    width = 90%;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo img{
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+#images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 70px;
+    color: rgb(243, 204, 193);
+    line-height: 1;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+
+footer{
+    padding: 20px;
+}
